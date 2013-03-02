@@ -1,0 +1,10 @@
+package gui.test;
+
+import javax.swing.JPanel;
+
+public class Tabs extends JPanel{
+
+	public Tabs() {
+		
+	}
+}

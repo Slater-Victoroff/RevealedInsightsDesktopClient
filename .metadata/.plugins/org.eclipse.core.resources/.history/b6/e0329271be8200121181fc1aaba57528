@@ -1,0 +1,17 @@
+package gui.test;
+
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+
+public class Tabs extends JPanel{
+
+	public Tabs() {
+		
+		JPanel dataEntry = new JPanel();
+		JPanel graphView = new JPanel();
+		
+		JTabbedPane tabbedPane = new JTabbedPane();
+		tabbedPane.addTab("Data Entry",dataEntry);
+		tabbedPane.addTab("Graph View",graphView);
+	}
+}

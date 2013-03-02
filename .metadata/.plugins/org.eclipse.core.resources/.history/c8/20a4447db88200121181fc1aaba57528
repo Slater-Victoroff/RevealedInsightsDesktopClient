@@ -1,0 +1,5 @@
+package gui.basics;
+
+public class HelloWorldGUI {
+
+}
